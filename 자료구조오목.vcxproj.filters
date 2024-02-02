@@ -21,6 +21,9 @@
     <ClCompile Include="AIsup.c">
       <Filter>헤더 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2023_0408.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AIsup.h">

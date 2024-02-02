@@ -1,4 +1,4 @@
-#if 0
+#if 1
 
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
@@ -17,6 +17,26 @@ int main(void)
 
 	for (int i = 1; i <= 361; i++)
 	{
+		menu();
+		int choice;
+		if (scanf("%d", &choice) != 1)
+		{
+			printf("입력 오류\n");
+			exit(1);
+		}fgetc(stdin);
+
+		switch (choice)
+		{
+		case 0: break;
+		case 1: EveryCOUNT(Game); i--; continue;
+		case 2: CheckB(Game); CheckA(Game); i--; continue;
+		case 3: CheckRTLB(Game); CheckRBLT(Game); i--; continue;
+		case 4: CheckBindex(Game); i--; continue;
+		case 5: exit(1);
+		}
+
+
+
 		int Y, X;
 		printf("\n( Y , X )가 0보다 작거나 18보다 크다면 수행을 번복합니다.\n");
 
@@ -54,53 +74,10 @@ int main(void)
 		if (i % 2 == 1) {
 			Game[Y][X] = 'B';
 			PrintGame(Game);
-			menu();
-			int choice;
-			if (scanf("%d", &choice) != 1)
-			{
-				printf("입력 오류\n");
-				exit(1);
-			}fgetc(stdin);
-
-
-			switch (choice)
-			{
-			case 0: break;
-			case 1: EveryCOUNT(Game); break;
-			case 2: CheckB(Game); CheckA(Game); break;
-			case 3: CheckRTLB(Game); CheckRBLT(Game); break;
-			case 4: CheckBindex(Game); break;
-			case 5: exit(1); break;
-
-			}
-
-
-
 		}
 		else if (i % 2 == 0) {
 			Game[Y][X] = 'W';
-
 			PrintGame(Game);
-			menu();
-			int choice;
-			if (scanf("%d", &choice) != 1)
-			{
-				printf("입력 오류\n");
-				exit(1);
-			}fgetc(stdin);
-
-			switch (choice)
-			{
-			case 0: break;
-			case 1: EveryCOUNT(Game); break;
-			case 2: CheckB(Game); CheckA(Game); break;
-			case 3: CheckRTLB(Game); CheckRBLT(Game); break;
-			case 4: CheckBindex(Game); break;
-			case 5: exit(1); break;
-
-			}
-
-
 
 		}
 

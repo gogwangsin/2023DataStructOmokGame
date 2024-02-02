@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="2023_0408.c" />
     <ClCompile Include="2023_0412.c" />
     <ClCompile Include="AIsup.c" />
   </ItemGroup>
