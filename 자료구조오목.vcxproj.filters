@@ -13,21 +13,69 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\최종 완성 오목">
+      <UniqueIdentifier>{b2ba11ca-7f1b-466e-b400-81a3fb15663c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\오목 프로젝트 진행">
+      <UniqueIdentifier>{30dce53f-1e55-428c-aec9-a89693061cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\오목 프로젝트 진행">
+      <UniqueIdentifier>{e71b88b8-e625-44ce-bece-184a82dbe4c7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="2023_0408.c">
+      <Filter>소스 파일\오목 프로젝트 진행</Filter>
+    </ClCompile>
     <ClCompile Include="2023_0412.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\오목 프로젝트 진행</Filter>
+    </ClCompile>
+    <ClCompile Include="2023_0424_ai2.c">
+      <Filter>소스 파일\오목 프로젝트 진행</Filter>
+    </ClCompile>
+    <ClCompile Include="2023_0428_ai9.c">
+      <Filter>소스 파일\오목 프로젝트 진행</Filter>
+    </ClCompile>
+    <ClCompile Include="2023_0425_ai7.c">
+      <Filter>소스 파일\오목 프로젝트 진행</Filter>
+    </ClCompile>
+    <ClCompile Include="2023_0504_ai10.c">
+      <Filter>소스 파일\오목 프로젝트 진행</Filter>
+    </ClCompile>
+    <ClCompile Include="AI2sup.c">
+      <Filter>헤더 파일\오목 프로젝트 진행</Filter>
     </ClCompile>
     <ClCompile Include="AIsup.c">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\오목 프로젝트 진행</Filter>
     </ClCompile>
-    <ClCompile Include="2023_0408.c">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\최종 완성 오목</Filter>
+    </ClCompile>
+    <ClCompile Include="Judgment.cpp">
+      <Filter>소스 파일\최종 완성 오목</Filter>
+    </ClCompile>
+    <ClCompile Include="2023_0620_ai12.c">
+      <Filter>소스 파일\오목 프로젝트 진행</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AI2sup.h">
+      <Filter>헤더 파일\오목 프로젝트 진행</Filter>
+    </ClInclude>
     <ClInclude Include="AIsup.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\오목 프로젝트 진행</Filter>
+    </ClInclude>
+    <ClInclude Include="Judgment.h">
+      <Filter>소스 파일\최종 완성 오목</Filter>
+    </ClInclude>
+    <ClInclude Include="Omok_2020182003.h">
+      <Filter>소스 파일\최종 완성 오목</Filter>
+    </ClInclude>
+    <ClInclude Include="Omok_2018180042.h">
+      <Filter>소스 파일\최종 완성 오목</Filter>
+    </ClInclude>
+    <ClInclude Include="2020180001.h">
+      <Filter>소스 파일\최종 완성 오목</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

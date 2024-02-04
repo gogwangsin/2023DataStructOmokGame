@@ -129,10 +129,23 @@
   <ItemGroup>
     <ClCompile Include="2023_0408.c" />
     <ClCompile Include="2023_0412.c" />
+    <ClCompile Include="2023_0424_ai2.c" />
+    <ClCompile Include="2023_0425_ai7.c" />
+    <ClCompile Include="2023_0428_ai9.c" />
+    <ClCompile Include="2023_0504_ai10.c" />
+    <ClCompile Include="2023_0620_ai12.c" />
+    <ClCompile Include="AI2sup.c" />
     <ClCompile Include="AIsup.c" />
+    <ClCompile Include="Judgment.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="2020180001.h" />
+    <ClInclude Include="AI2sup.h" />
     <ClInclude Include="AIsup.h" />
+    <ClInclude Include="Judgment.h" />
+    <ClInclude Include="Omok_2018180042.h" />
+    <ClInclude Include="Omok_2020182003.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
